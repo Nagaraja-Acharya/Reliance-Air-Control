@@ -1,73 +1,82 @@
-# Welcome to your Lovable project
+# Reliance Air Control Website
 
-## Project info
+Professional HVAC and ventilation engineering company website built with modern web technologies.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## About
 
-## How can I edit this code?
+Reliance Air Control is a Bengaluru-based HVAC and ventilation engineering company with over 30 years of experience, specializing in comprehensive air control systems for commercial, industrial, and institutional sectors.
 
-There are several ways of editing your application.
+## Technologies Used
 
-**Use Lovable**
+- **React 18** - Modern UI library
+- **TypeScript** - Type-safe development
+- **Vite** - Fast build tool
+- **Tailwind CSS** - Utility-first CSS framework
+- **shadcn/ui** - High-quality UI components
+- **React Router** - Client-side routing
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## Getting Started
 
-Changes made via Lovable will be committed automatically to this repo.
+### Prerequisites
 
-**Use your preferred IDE**
+- Node.js (v16 or higher)
+- npm or yarn
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Installation
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+```bash
+# Install dependencies
+npm install
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
 ```
 
-**Edit a file directly in GitHub**
+## Project Structure
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```
+src/
+├── components/     # Reusable UI components
+├── pages/          # Page components
+├── hooks/          # Custom React hooks
+├── lib/            # Utility functions
+└── assets/         # Images and static files
+```
 
-**Use GitHub Codespaces**
+## Features
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- Multi-page website with React Router
+- Responsive design for all devices
+- Scroll-triggered animations
+- Client logo carousel
+- Contact form with validation
+- Google Maps integration
+- SEO-optimized structure
 
-## What technologies are used for this project?
+## Pages
 
-This project is built with:
+- **Home** - Hero, services overview, client logos, CTA
+- **About Us** - Company story, vision, mission, values
+- **Services** - Detailed service offerings
+- **Why Us** - Benefits and quality standards
+- **Contact** - Contact form and location map
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Contact
 
-## How can I deploy this project?
+**Reliance Air Control**  
+G/F – 9/10, 14th E Cross  
+Agrahara Dasarahalli  
+Bengaluru – 560079
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Phone: 9880013779  
+Email: relianceaircontrol@gmail.com
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+© 2024 Reliance Air Control. All Rights Reserved.
