@@ -8,13 +8,11 @@ const Footer = () => {
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand */}
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-9 h-9 rounded-lg bg-primary flex items-center justify-center">
-                <span className="text-primary-foreground font-heading font-bold">R</span>
-              </div>
+            <div className="flex items-center gap-3 mb-4">
+              <img src="/Reliance Air Control_Logo.png" alt="Reliance Air Control" className="h-12 w-auto" />
               <div className="leading-tight">
-                <span className="font-heading font-bold text-sm">Reliance</span>
-                <span className="block text-xs text-navy-foreground/60">Air Control</span>
+                <span className="font-heading font-bold text-base text-navy-foreground">Reliance Air Control</span>
+                <span className="block text-xs text-navy-foreground/60">HVAC & Ventilation Experts</span>
               </div>
             </div>
             <p className="text-sm text-navy-foreground/60 leading-relaxed">

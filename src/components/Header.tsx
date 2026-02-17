@@ -43,16 +43,14 @@ const Header = () => {
 
       {/* Main nav */}
       <div className="container-narrow flex items-center justify-between py-3 px-4 md:px-8">
-        <Link to="/" className="flex items-center gap-2">
-          <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center">
-            <span className="text-primary-foreground font-heading font-bold text-lg">R</span>
-          </div>
+        <Link to="/" className="flex items-center gap-3">
+          <img src="/Reliance Air Control_Logo.png" alt="Reliance Air Control" className="h-12 w-auto" />
           <div className="leading-tight">
-            <span className="font-heading font-bold text-base text-foreground">
-              Reliance
+            <span className="font-heading font-bold text-lg text-foreground">
+              Reliance Air Control
             </span>
             <span className="block text-xs font-medium text-muted-foreground">
-              Air Control
+              HVAC & Ventilation Experts
             </span>
           </div>
         </Link>
