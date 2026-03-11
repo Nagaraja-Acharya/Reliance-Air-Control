@@ -1,16 +1,16 @@
 import Layout from "@/components/Layout";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
 import { Button } from "@/components/ui/button";
-import { Fan, ChefHat, Factory, PipetteIcon, Droplets, Wrench, ArrowRight } from "lucide-react";
+import { Fan, ChefHat, Factory, PipetteIcon, ArrowRight, Wind } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const services = [
   {
     icon: Fan,
-    title: "HVAC Systems & AHUs",
-    desc: "Complete heating, ventilation, and air conditioning solutions including Air Handling Units for commercial and industrial spaces.",
+    title: "HVAC Systems",
+    desc: "Complete heating, ventilation, and air conditioning solutions for commercial and industrial spaces.",
     features: [
-      "Custom AHU design & manufacturing",
+      "Custom design & manufacturing",
       "Central air conditioning systems",
       "Variable Refrigerant Flow (VRF) systems",
       "Energy-efficient HVAC solutions",
@@ -18,13 +18,24 @@ const services = [
   },
   {
     icon: ChefHat,
-    title: "Kitchen Ventilation",
-    desc: "Specialized exhaust and fresh air systems for commercial kitchens, restaurants, and food processing facilities.",
+    title: "Kitchen Exhaust System",
+    desc: "Specialized exhaust systems for commercial kitchens, restaurants, and food processing facilities to remove smoke, grease, and odors.",
     features: [
       "Commercial kitchen exhaust hoods",
       "Grease filtration systems",
-      "Make-up air units",
+      "Smoke & odor removal",
       "Fire suppression integration",
+    ],
+  },
+  {
+    icon: Wind,
+    title: "Kitchen Fresh Air System",
+    desc: "Make-up air systems that provide fresh, conditioned air to commercial kitchens, maintaining proper air balance and comfort.",
+    features: [
+      "Make-up air units",
+      "Tempered fresh air supply",
+      "Air balance optimization",
+      "Energy recovery systems",
     ],
   },
   {
@@ -47,28 +58,6 @@ const services = [
       "Insulated ductwork",
       "Flexible ducting solutions",
       "Air distribution grilles & diffusers",
-    ],
-  },
-  {
-    icon: Droplets,
-    title: "Dehumidification Solutions",
-    desc: "Advanced moisture control and dehumidification systems for pharmaceutical, food storage, and data center applications.",
-    features: [
-      "Industrial dehumidifiers",
-      "Desiccant dehumidification",
-      "Humidity control systems",
-      "Condensation prevention",
-    ],
-  },
-  {
-    icon: Wrench,
-    title: "Retrofit & Custom Projects",
-    desc: "Upgrading existing HVAC infrastructure and designing bespoke ventilation solutions tailored to unique requirements.",
-    features: [
-      "HVAC system upgrades",
-      "Energy efficiency retrofits",
-      "Custom ventilation design",
-      "System optimization",
     ],
   },
 ];

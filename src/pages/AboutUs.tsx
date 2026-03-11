@@ -110,6 +110,38 @@ const AboutUs = () => {
         </div>
       </section>
 
+      {/* Founder Section */}
+      <section className="section-padding bg-background">
+        <div className="container-narrow">
+          <AnimateOnScroll>
+            <div className="text-center mb-12">
+              <span className="text-primary font-semibold text-sm uppercase tracking-wider">Leadership</span>
+              <h2 className="section-title mt-2">Meet Our Founder</h2>
+            </div>
+          </AnimateOnScroll>
+          <AnimateOnScroll delay={200}>
+            <div className="max-w-4xl mx-auto bg-card rounded-2xl shadow-lg border border-border overflow-hidden">
+              <div className="grid md:grid-cols-5 gap-10 p-10 md:p-12">
+                <div className="md:col-span-2 flex justify-center items-center">
+                  <img
+                    src="/Founder and Managing Director.jpeg"
+                    alt="Raghavendra R - Founder and Managing Director"
+                    className="w-72 h-72 rounded-xl object-cover shadow-md"
+                  />
+                </div>
+                <div className="md:col-span-3 flex flex-col justify-center">
+                  <h3 className="text-3xl font-heading font-bold text-foreground mb-2">Raghavendra R</h3>
+                  <p className="text-primary font-semibold text-lg mb-6">Founder & Managing Director</p>
+                  <p className="text-muted-foreground leading-relaxed text-base">
+                    With over 30 years of experience in HVAC and ventilation engineering, Raghavendra R has been the driving force behind Reliance Air Control's success. His vision and commitment to engineering excellence have established the company as a trusted name in air control solutions across India.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </AnimateOnScroll>
+        </div>
+      </section>
+
       {/* Engineering Expertise */}
       <section className="section-padding bg-background">
         <div className="container-narrow">
