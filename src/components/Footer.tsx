@@ -40,11 +40,11 @@ const Footer = () => {
             <h4 className="font-heading font-semibold text-sm mb-4">Services</h4>
             <ul className="space-y-2 text-sm text-navy-foreground/60">
               {[
-                "HVAC Systems & AHUs",
-                "Kitchen Ventilation",
-                "Industrial Fans",
-                "Ducting Solutions",
-                "Dehumidification",
+                "HVAC Systems",
+                "Kitchen Exhaust System",
+                "Kitchen Fresh Air System",
+                "Industrial Fans & Blowers",
+                "Ducting & Air Distribution",
               ].map((s) => (
                 <li key={s}>{s}</li>
               ))}
@@ -57,11 +57,11 @@ const Footer = () => {
             <ul className="space-y-3 text-sm text-navy-foreground/60">
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 mt-0.5 shrink-0 text-highlight" />
-                G/F – 9/10, 14th E Cross, Agrahara Dasarahalli, Bengaluru – 560079
+                No 9, 10, 14th A Cross Rd, Agrahara Dasarahalli, Rajajinagar, Bengaluru, Karnataka 560010
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4 shrink-0 text-highlight" />
-                <a href="tel:9880013779" className="hover:text-highlight transition-colors">9880013779</a>
+                <a href="tel:+919880013779" className="hover:text-highlight transition-colors">+91 98800 13779</a>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 shrink-0 text-highlight" />

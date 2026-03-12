@@ -35,9 +35,9 @@ const Header = () => {
       <div className="bg-navy text-navy-foreground text-sm py-1.5 px-4 hidden md:block">
         <div className="container-narrow flex justify-between items-center">
           <span>Engineering Excellence in HVAC & Ventilation Since 1990</span>
-          <a href="tel:9880013779" className="flex items-center gap-1.5 hover:text-highlight transition-colors">
+          <a href="tel:+919880013779" className="flex items-center gap-1.5 hover:text-highlight transition-colors">
             <Phone className="w-3.5 h-3.5" />
-            9880013779
+            +91 98800 13779
           </a>
         </div>
       </div>
@@ -94,8 +94,8 @@ const Header = () => {
                 {link.label}
               </Link>
             ))}
-            <a href="tel:9880013779" className="flex items-center gap-2 text-primary font-medium text-sm py-2">
-              <Phone className="w-4 h-4" /> 9880013779
+            <a href="tel:+919880013779" className="flex items-center gap-2 text-primary font-medium text-sm py-2">
+              <Phone className="w-4 h-4" /> +91 98800 13779
             </a>
             <Link to="/contact" onClick={() => setMenuOpen(false)}>
               <Button className="w-full bg-highlight text-navy font-semibold hover:bg-highlight/90">

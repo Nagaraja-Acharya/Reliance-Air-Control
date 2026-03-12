@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Phone } from "lucide-react";
+import { ArrowRight, Phone, MessageCircle } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const Hero = () => {
@@ -35,12 +35,6 @@ const Hero = () => {
               <Button size="lg" className="bg-highlight text-navy font-semibold hover:bg-highlight/90 text-base px-8">
                 Get a Quote
                 <ArrowRight className="ml-2 w-4 h-4" />
-              </Button>
-            </a>
-            <a href="tel:9880013779">
-              <Button size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground bg-primary-foreground/10 hover:bg-primary-foreground/20 text-base px-8">
-                <Phone className="mr-2 w-4 h-4" />
-                Call Us Now
               </Button>
             </a>
           </div>

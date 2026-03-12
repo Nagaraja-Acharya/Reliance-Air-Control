@@ -70,9 +70,9 @@ src/
 ## Contact
 
 **Reliance Air Control**  
-G/F – 9/10, 14th E Cross  
-Agrahara Dasarahalli  
-Bengaluru – 560079
+No 9, 10, 14th A Cross Rd  
+Agrahara Dasarahalli, Rajajinagar  
+Bengaluru, Karnataka 560010
 
 Phone: 9880013779  
 Email: relianceaircontrol@gmail.com

@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { MapPin, Phone, Mail } from "lucide-react";
+import { MapPin, Phone, Mail, MessageCircle } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 const Contact = () => {
@@ -37,7 +37,7 @@ const Contact = () => {
           <div className="rounded-xl overflow-hidden shadow-md border border-border h-80 lg:h-auto">
             <iframe
               title="Reliance Air Control Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.0!2d77.51!3d13.04!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDAyJzI0LjAiTiA3N8KwMzAnMzYuMCJF!5e0!3m2!1sen!2sin!4v1700000000000"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.5!2d77.5457039!3d12.9793329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d1ad85c5e65%3A0xaf700e96a606ab5e!2sReliance%20Air%20Control!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
               width="100%"
               height="100%"
               style={{ border: 0, minHeight: 320 }}
@@ -100,19 +100,25 @@ const Contact = () => {
               <div className="flex items-start gap-3 text-sm">
                 <MapPin className="w-4 h-4 text-primary mt-0.5 shrink-0" />
                 <span className="text-muted-foreground">
-                  G/F – 9/10, 14th E Cross, Agrahara Dasarahalli, Bengaluru – 560079
+                  No 9, 10, 14th A Cross Rd, Agrahara Dasarahalli, Rajajinagar, Bengaluru, Karnataka 560010
                 </span>
               </div>
               <div className="flex items-center gap-3 text-sm">
                 <Phone className="w-4 h-4 text-primary shrink-0" />
-                <a href="tel:9880013779" className="text-muted-foreground hover:text-primary transition-colors">
-                  9880013779
+                <a href="tel:+919880013779" className="text-muted-foreground hover:text-primary transition-colors">
+                  +91 98800 13779
                 </a>
               </div>
               <div className="flex items-center gap-3 text-sm">
                 <Mail className="w-4 h-4 text-primary shrink-0" />
                 <a href="mailto:relianceaircontrol@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
                   relianceaircontrol@gmail.com
+                </a>
+              </div>
+              <div className="flex items-center gap-3 text-sm">
+                <MessageCircle className="w-4 h-4 text-primary shrink-0" />
+                <a href="https://wa.me/919880013779" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                  Connect on WhatsApp
                 </a>
               </div>
             </div>

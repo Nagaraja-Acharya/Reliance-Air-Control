@@ -37,7 +37,7 @@ const AboutUs = () => {
             <AnimateOnScroll>
               <div>
                 <span className="text-primary font-semibold text-sm uppercase tracking-wider">Our Story</span>
-                <h2 className="section-title mt-2">Pioneering Air Control Solutions Since 1990</h2>
+                <h2 className="section-title mt-2">Reliance Air Control Since 1990</h2>
                 <p className="text-muted-foreground leading-relaxed mb-6">
                   Reliance Air Control is a Bengaluru-based HVAC and ventilation engineering company with over 30 years of hands-on experience. We specialize in designing, manufacturing, and installing comprehensive air control systems for commercial kitchens, industrial facilities, hospitals, IT parks, and more.
                 </p>
@@ -85,23 +85,23 @@ const AboutUs = () => {
         <div className="container-narrow">
           <div className="grid md:grid-cols-2 gap-8">
             <AnimateOnScroll>
-              <div className="bg-card rounded-xl p-8 border border-border">
-                <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-5">
-                  <Eye className="w-7 h-7 text-primary" />
+              <div className="bg-card rounded-xl p-12 border border-border">
+                <div className="w-16 h-16 rounded-xl bg-primary/10 flex items-center justify-center mb-6">
+                  <Eye className="w-8 h-8 text-primary" />
                 </div>
-                <h3 className="text-2xl font-heading font-bold text-foreground mb-4">Our Vision</h3>
-                <p className="text-muted-foreground leading-relaxed">
+                <h3 className="text-3xl font-heading font-bold text-foreground mb-5">Our Vision</h3>
+                <p className="text-muted-foreground leading-relaxed text-lg">
                   To be India's most trusted partner in air control engineering, setting industry benchmarks for quality, innovation, and customer satisfaction while contributing to healthier, more sustainable built environments.
                 </p>
               </div>
             </AnimateOnScroll>
             <AnimateOnScroll delay={200}>
-              <div className="bg-card rounded-xl p-8 border border-border">
-                <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-5">
-                  <Target className="w-7 h-7 text-primary" />
+              <div className="bg-card rounded-xl p-12 border border-border">
+                <div className="w-16 h-16 rounded-xl bg-primary/10 flex items-center justify-center mb-6">
+                  <Target className="w-8 h-8 text-primary" />
                 </div>
-                <h3 className="text-2xl font-heading font-bold text-foreground mb-4">Our Mission</h3>
-                <p className="text-muted-foreground leading-relaxed">
+                <h3 className="text-3xl font-heading font-bold text-foreground mb-5">Our Mission</h3>
+                <p className="text-muted-foreground leading-relaxed text-lg">
                   To deliver exceptional HVAC and ventilation solutions through engineering excellence, continuous innovation, and unwavering commitment to quality—ensuring optimal air quality, energy efficiency, and comfort for every client.
                 </p>
               </div>
@@ -111,28 +111,28 @@ const AboutUs = () => {
       </section>
 
       {/* Founder Section */}
-      <section className="section-padding bg-background">
+      <section className="section-padding bg-gradient-to-br from-blue-50 to-blue-100">
         <div className="container-narrow">
           <AnimateOnScroll>
             <div className="text-center mb-12">
-              <span className="text-primary font-semibold text-sm uppercase tracking-wider">Leadership</span>
+              <span className="text-blue-600 font-semibold text-sm uppercase tracking-wider">Leadership</span>
               <h2 className="section-title mt-2">Meet Our Founder</h2>
             </div>
           </AnimateOnScroll>
           <AnimateOnScroll delay={200}>
-            <div className="max-w-4xl mx-auto bg-card rounded-2xl shadow-lg border border-border overflow-hidden">
-              <div className="grid md:grid-cols-5 gap-10 p-10 md:p-12">
+            <div className="max-w-5xl mx-auto bg-white rounded-2xl shadow-xl border border-blue-200 overflow-hidden">
+              <div className="grid md:grid-cols-5 gap-12 p-12 md:p-16">
                 <div className="md:col-span-2 flex justify-center items-center">
                   <img
-                    src="/Founder and Managing Director.jpeg"
-                    alt="Raghavendra R - Founder and Managing Director"
-                    className="w-72 h-72 rounded-xl object-cover shadow-md"
+                    src="/Founder and Managing Director.png"
+                    alt="Founder and Managing Director"
+                    className="w-80 h-80 rounded-xl object-cover shadow-lg border-4 border-blue-200"
                   />
                 </div>
                 <div className="md:col-span-3 flex flex-col justify-center">
-                  <h3 className="text-3xl font-heading font-bold text-foreground mb-2">Raghavendra R</h3>
-                  <p className="text-primary font-semibold text-lg mb-6">Founder & Managing Director</p>
-                  <p className="text-muted-foreground leading-relaxed text-base">
+                  <h3 className="text-4xl font-heading font-bold text-gray-900 mb-3">Raghavendra R</h3>
+                  <p className="text-blue-600 font-semibold text-xl mb-8">Founder & Managing Director</p>
+                  <p className="text-gray-700 leading-relaxed text-lg">
                     With over 30 years of experience in HVAC and ventilation engineering, Raghavendra R has been the driving force behind Reliance Air Control's success. His vision and commitment to engineering excellence have established the company as a trusted name in air control solutions across India.
                   </p>
                 </div>

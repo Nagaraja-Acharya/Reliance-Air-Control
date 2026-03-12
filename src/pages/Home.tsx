@@ -6,16 +6,14 @@ import ClientLogos from "@/components/ClientLogos";
 import Promise from "@/components/Promise";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Fan, ChefHat, Factory, PipetteIcon, Droplets, Wrench } from "lucide-react";
+import { ArrowRight, Fan, ChefHat, Factory, PipetteIcon, Wind } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const services = [
-  { icon: Fan, title: "HVAC Systems & AHUs", desc: "Complete heating, ventilation, and air conditioning solutions." },
-  { icon: ChefHat, title: "Kitchen Ventilation", desc: "Specialized exhaust systems for commercial kitchens." },
+  { icon: Fan, title: "HVAC Systems", desc: "Complete heating, ventilation, and air conditioning solutions." },
+  { icon: ChefHat, title: "Kitchen Exhaust System", desc: "Specialized exhaust systems for commercial kitchens." },
   { icon: Factory, title: "Industrial Fans & Blowers", desc: "High-performance air movement equipment." },
   { icon: PipetteIcon, title: "Ducting & Air Distribution", desc: "Custom-fabricated ducting systems." },
-  { icon: Droplets, title: "Dehumidification Solutions", desc: "Advanced moisture control systems." },
-  { icon: Wrench, title: "Retrofit & Custom Projects", desc: "Upgrading existing HVAC infrastructure." },
 ];
 
 const Home = () => {
@@ -36,7 +34,7 @@ const Home = () => {
             </p>
           </div>
         </AnimateOnScroll>
-        <div className="container-narrow grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="container-narrow grid sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
           {services.map((s, idx) => (
             <AnimateOnScroll key={s.title} delay={idx * 100}>
               <div className="group bg-card rounded-xl border border-border p-6 hover:border-primary/30 hover:shadow-lg transition-all duration-300">
