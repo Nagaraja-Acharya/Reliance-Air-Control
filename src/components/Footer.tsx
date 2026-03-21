@@ -79,6 +79,12 @@ const Footer = () => {
         <p className="text-center text-xs text-navy-foreground/40">
           © {new Date().getFullYear()} Reliance Air Control. All Rights Reserved.
         </p>
+        <p className="text-center text-xs text-navy-foreground/30 mt-1">
+          Designed & Developed by{" "}
+          <a href="https://www.dotdesigntech.com/" target="_blank" rel="noopener noreferrer" className="text-highlight font-bold hover:text-highlight/80 transition-colors">
+            Dot Design
+          </a>
+        </p>
       </div>
     </footer>
   );
