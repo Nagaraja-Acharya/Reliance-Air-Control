@@ -143,7 +143,7 @@ const ContactPage = () => {
                 <div className="flex items-start gap-3 text-sm">
                   <MapPin className="w-4 h-4 text-primary mt-0.5 shrink-0" />
                   <span className="text-muted-foreground">
-                    No 9, 10, 14th A Cross Rd, Agrahara Dasarahalli, Rajajinagar, Bengaluru, Karnataka 560010
+                    No 9, 10, 14th E Cross Rd, Agrahara Dasarahalli, Rajajinagar, Bengaluru, Karnataka 560010
                   </span>
                 </div>
                 <div className="flex items-center gap-3 text-sm">
