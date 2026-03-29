@@ -1,7 +1,7 @@
 import Layout from "@/components/Layout";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
 import { Button } from "@/components/ui/button";
-import { Fan, ChefHat, Factory, PipetteIcon, ArrowRight, Wind } from "lucide-react";
+import { Fan, ChefHat, Factory, PipetteIcon, ArrowRight, Wind, Filter } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const services = [
@@ -60,6 +60,28 @@ const services = [
       "Air distribution grilles & diffusers",
     ],
   },
+  {
+    icon: Filter,
+    title: "Dry Scrubber",
+    desc: "Manufactured in-house, our dry scrubbers effectively capture and neutralize airborne pollutants and particulate matter from industrial exhaust streams.",
+    features: [
+      "Dry Scrubber with Electro Starter",
+      "ESP (Electrostatic Precipitator) Dry Scrubber",
+      "Particulate matter removal",
+      "Custom-built for industrial applications",
+    ],
+  },
+  {
+    icon: Filter,
+    title: "Wet Scrubber",
+    desc: "Our manufactured wet scrubbers use water or liquid solutions to remove harmful gases, fumes, and fine particles from industrial exhaust air.",
+    features: [
+      "Gas & fume absorption",
+      "Fine particulate removal",
+      "Corrosion-resistant construction",
+      "Custom-built for industrial applications",
+    ],
+  },
 ];
 
 const ServicesPage = () => {
@@ -80,16 +102,16 @@ const ServicesPage = () => {
       {/* Services Grid */}
       <section className="section-padding bg-background">
         <div className="container-narrow">
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 gap-8 items-stretch">
             {services.map((s, idx) => (
               <AnimateOnScroll key={s.title} delay={idx * 100}>
-                <div className="group bg-card rounded-xl border border-border p-8 hover:border-primary/30 hover:shadow-xl transition-all duration-300">
+                <div className="group bg-card rounded-xl border border-border p-8 hover:border-primary/30 hover:shadow-xl transition-all duration-300 h-full flex flex-col">
                   <div className="w-16 h-16 rounded-xl bg-primary/10 flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-primary-foreground transition-colors duration-300">
                     <s.icon className="w-8 h-8 text-primary group-hover:text-primary-foreground transition-colors duration-300" />
                   </div>
                   <h3 className="font-heading font-bold text-2xl text-foreground mb-3">{s.title}</h3>
                   <p className="text-muted-foreground leading-relaxed mb-6">{s.desc}</p>
-                  <ul className="space-y-2 mb-6">
+                  <ul className="space-y-2 mb-6 flex-1">
                     {s.features.map((feature) => (
                       <li key={feature} className="flex items-start gap-2 text-sm text-muted-foreground">
                         <span className="text-primary mt-1">•</span>
