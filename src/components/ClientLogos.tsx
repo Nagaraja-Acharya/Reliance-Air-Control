@@ -2,7 +2,6 @@ import AnimateOnScroll from "@/components/AnimateOnScroll";
 
 const clients = [
   { name: "A2B Veg Restaurant", logo: "/assets/clients/a2b-veg-restaurant-logo.jpeg" },
-  { name: "Anand Sweets & Savouries", logo: "/assets/clients/anand-sweets-savouries-logo.jpeg" },
   { name: "Ananyas Nana Nani Homes", logo: "/assets/clients/ananyas-nana-nani-homes-logo.jpeg" },
   { name: "Biriyani Zone", logo: "/assets/clients/biriyani-zone-logo.jpeg" },
   { name: "Biryani Zest", logo: "/assets/clients/biryani-zest-logo.jpeg" },
@@ -14,7 +13,6 @@ const clients = [
   { name: "Nithya Amirtham", logo: "/assets/clients/nithya-amirtham.jpeg" },
   { name: "Shree Anandhaas", logo: "/assets/clients/shree-anandhaas-logo.jpeg" },
   { name: "Sree Annapoorna Gowrishankar", logo: "/assets/clients/sree-annapoorna-gowrishankar-logo.jpeg" },
-  { name: "Sree Annapoorna Kitchen Equipment", logo: "/assets/clients/sree-annapoorna-kitchen-equipment-logo.jpeg" },
 ];
 
 const ClientLogos = () => {
@@ -31,7 +29,7 @@ const ClientLogos = () => {
       </AnimateOnScroll>
 
       <div className="relative">
-        <div className="flex animate-scroll">
+        <div className="flex animate-scroll-left">
           {clients.map((client, index) => (
             <div
               key={`first-${index}`}
