@@ -62,23 +62,13 @@ const services = [
   },
   {
     icon: Filter,
-    title: "Dry Scrubber",
-    desc: "Manufactured in-house, our dry scrubbers effectively capture and neutralize airborne pollutants and particulate matter from industrial exhaust streams.",
+    title: "Dry & Wet Scrubber",
+    desc: "Manufactured in-house, our scrubbers effectively capture and neutralize airborne pollutants, harmful gases, fumes, and particulate matter from industrial exhaust streams.",
     features: [
       "Dry Scrubber with Electro Starter",
       "ESP (Electrostatic Precipitator) Dry Scrubber",
-      "Particulate matter removal",
-      "Custom-built for industrial applications",
-    ],
-  },
-  {
-    icon: Filter,
-    title: "Wet Scrubber",
-    desc: "Our manufactured wet scrubbers use water or liquid solutions to remove harmful gases, fumes, and fine particles from industrial exhaust air.",
-    features: [
-      "Gas & fume absorption",
-      "Fine particulate removal",
-      "Corrosion-resistant construction",
+      "Wet Scrubber for gas & fume absorption",
+      "Fine particulate & corrosion-resistant construction",
       "Custom-built for industrial applications",
     ],
   },
