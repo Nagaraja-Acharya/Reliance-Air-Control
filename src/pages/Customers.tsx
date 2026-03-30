@@ -3,7 +3,7 @@ import AnimateOnScroll from "@/components/AnimateOnScroll";
 
 const customersWithLogos = Array.from({ length: 50 }, (_, i) => ({
   name: `Client ${i + 1}`,
-  logo: `/assets/Customers Logo's/Client Logo-${String(i + 1).padStart(2, "0")}.jpg`,
+  logo: `/assets/Customers%20Logo's/Client%20Logo-${String(i + 1).padStart(2, "0")}.jpg`,
 }));
 
 const Customers = () => {
@@ -47,8 +47,8 @@ const Customers = () => {
               <div className="relative flex overflow-hidden">
                 <div className="flex animate-scroll-left gap-6">
                   {[...customersWithLogos.slice(0, 13), ...customersWithLogos.slice(0, 13)].map((customer, i) => (
-                    <div key={`row1-${i}`} className="flex-shrink-0 w-40 bg-card rounded-xl border border-border p-4 flex items-center justify-center hover:shadow-lg hover:border-primary/30 transition-all duration-300">
-                      <img src={customer.logo} alt={customer.name} className="h-16 w-full object-contain" loading="lazy" />
+                    <div key={`row1-${i}`} className="flex-shrink-0 w-40 h-20 rounded-xl overflow-hidden flex items-center justify-center">
+                      <img src={customer.logo} alt={customer.name} className="w-full h-full object-cover" loading="lazy" />
                     </div>
                   ))}
                 </div>
@@ -58,8 +58,8 @@ const Customers = () => {
               <div className="relative flex overflow-hidden">
                 <div className="flex animate-scroll-right gap-6">
                   {[...customersWithLogos.slice(13, 26), ...customersWithLogos.slice(13, 26)].map((customer, i) => (
-                    <div key={`row2-${i}`} className="flex-shrink-0 w-40 bg-card rounded-xl border border-border p-4 flex items-center justify-center hover:shadow-lg hover:border-primary/30 transition-all duration-300">
-                      <img src={customer.logo} alt={customer.name} className="h-16 w-full object-contain" loading="lazy" />
+                    <div key={`row2-${i}`} className="flex-shrink-0 w-40 h-20 rounded-xl overflow-hidden flex items-center justify-center">
+                      <img src={customer.logo} alt={customer.name} className="w-full h-full object-cover" loading="lazy" />
                     </div>
                   ))}
                 </div>
@@ -69,8 +69,8 @@ const Customers = () => {
               <div className="relative flex overflow-hidden">
                 <div className="flex animate-scroll-left gap-6">
                   {[...customersWithLogos.slice(26, 38), ...customersWithLogos.slice(26, 38)].map((customer, i) => (
-                    <div key={`row3-${i}`} className="flex-shrink-0 w-40 bg-card rounded-xl border border-border p-4 flex items-center justify-center hover:shadow-lg hover:border-primary/30 transition-all duration-300">
-                      <img src={customer.logo} alt={customer.name} className="h-16 w-full object-contain" loading="lazy" />
+                    <div key={`row3-${i}`} className="flex-shrink-0 w-40 h-20 rounded-xl overflow-hidden flex items-center justify-center">
+                      <img src={customer.logo} alt={customer.name} className="w-full h-full object-cover" loading="lazy" />
                     </div>
                   ))}
                 </div>
@@ -80,8 +80,8 @@ const Customers = () => {
               <div className="relative flex overflow-hidden">
                 <div className="flex animate-scroll-right gap-6">
                   {[...customersWithLogos.slice(38), ...customersWithLogos.slice(38)].map((customer, i) => (
-                    <div key={`row4-${i}`} className="flex-shrink-0 w-40 bg-card rounded-xl border border-border p-4 flex items-center justify-center hover:shadow-lg hover:border-primary/30 transition-all duration-300">
-                      <img src={customer.logo} alt={customer.name} className="h-16 w-full object-contain" loading="lazy" />
+                    <div key={`row4-${i}`} className="flex-shrink-0 w-40 h-20 rounded-xl overflow-hidden flex items-center justify-center">
+                      <img src={customer.logo} alt={customer.name} className="w-full h-full object-cover" loading="lazy" />
                     </div>
                   ))}
                 </div>

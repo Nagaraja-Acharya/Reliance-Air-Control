@@ -2,7 +2,7 @@ import AnimateOnScroll from "@/components/AnimateOnScroll";
 
 const clients = Array.from({ length: 50 }, (_, i) => ({
   name: `Client ${i + 1}`,
-  logo: `/assets/Customers Logo's/Client Logo-${String(i + 1).padStart(2, "0")}.jpg`,
+  logo: `/assets/Customers%20Logo's/Client%20Logo-${String(i + 1).padStart(2, "0")}.jpg`,
 }));
 
 const ClientLogos = () => {
@@ -23,24 +23,24 @@ const ClientLogos = () => {
           {clients.map((client, index) => (
             <div
               key={`first-${index}`}
-              className="flex-shrink-0 mx-4 bg-card rounded-lg p-4 shadow-md hover:shadow-xl transition-all duration-300"
+              className="flex-shrink-0 mx-4 hover:shadow-xl transition-all duration-300"
             >
               <img
                 src={client.logo}
                 alt={client.name}
-                className="h-20 w-auto max-w-[180px] object-contain"
+                className="h-20 w-auto max-w-[180px] object-contain rounded-xl"
               />
             </div>
           ))}
           {clients.map((client, index) => (
             <div
               key={`second-${index}`}
-              className="flex-shrink-0 mx-4 bg-card rounded-lg p-4 shadow-md hover:shadow-xl transition-all duration-300"
+              className="flex-shrink-0 mx-4 hover:shadow-xl transition-all duration-300"
             >
               <img
                 src={client.logo}
                 alt={client.name}
-                className="h-20 w-auto max-w-[180px] object-contain"
+                className="h-20 w-auto max-w-[180px] object-contain rounded-xl"
               />
             </div>
           ))}
