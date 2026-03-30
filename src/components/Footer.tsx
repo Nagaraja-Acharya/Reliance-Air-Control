@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand */}
           <div>
-            <img src="/Reliance Air Control_Logo_New.png" alt="Reliance Air Control" className="h-16 w-auto mb-4 bg-white p-2 rounded-lg" />
+            <img src="/Reliance Logo-01.png" alt="Reliance Air Control" className="h-16 w-auto mb-4 bg-white p-2 rounded-lg" />
             <p className="text-sm text-navy-foreground/60 leading-relaxed">
               A trusted name in HVAC & ventilation engineering, delivering
               excellence across commercial and industrial sectors since 1990.

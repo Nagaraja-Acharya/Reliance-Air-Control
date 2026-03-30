@@ -45,7 +45,7 @@ const Header = () => {
       {/* Main nav */}
       <div className="container-narrow flex items-center justify-between py-3 px-4 md:px-8">
         <Link to="/" className="flex items-center gap-2">
-          <img src="/Reliance Air Control_Logo_New.png" alt="Reliance Air Control" className="h-12 w-auto" />
+          <img src="/Reliance Logo-01.png" alt="Reliance Air Control" className="h-12 w-auto" />
         </Link>
 
         {/* Desktop nav */}
